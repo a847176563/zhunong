@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-card-body {
+  padding: 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+.ant-tabs-nav::before {
+  border-bottom: none !important;
+}
+.ant-tabs-nav{
+    margin-bottom:16px !important;
+    
+}
